@@ -16,6 +16,21 @@ $ npm install --global alfred-fire
 
 In Alfred, type `fire <global node modules> [args, ]`, <kbd>Enter</kbd>, and your query.
 
+## example
+
+> npm install -g ip
+Then open alfred, type `f ip address`
+
+> npm install -g mathjs
+Then open alfred, type `f mathjs add 2 3`
+
+## TODO
+
+ - [ ] support search node_modules with cutomized prefix
+ - [ ] add scripts folder to store user scirpts
+ - [ ] support autocomplete
+ - [ ] support search & install remote node_modules
+
 ## License
 
 MIT © 
