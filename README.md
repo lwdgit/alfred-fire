@@ -18,10 +18,14 @@ In Alfred, type `fire <global node modules> [args, ]`, <kbd>Enter</kbd>, and you
 
 ## example
 
+```bash
 > npm install -g ip
+```
 Then open alfred, type `f ip address`
 
+```bash
 > npm install -g mathjs
+```
 Then open alfred, type `f mathjs add 2 3`
 
 ## TODO
