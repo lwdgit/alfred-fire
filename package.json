@@ -1,0 +1,36 @@
+{
+  "name": "alfred-fire",
+  "version": "0.0.0",
+  "description": "Alfred 3 workflow to run node-fire with easy",
+  "license": "MIT",
+  "repository": "lwdgit/alfred-fire",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "search.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "node-fire",
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.2",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "node-fire": "^0.2.6"
+  }
+}
