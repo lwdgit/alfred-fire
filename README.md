@@ -37,4 +37,4 @@ Then open alfred, type `f mathjs add 2 3`
 
 ## License
 
-MIT © 
+MIT © lwdgit
