@@ -1,9 +1,12 @@
 {
   "name": "alfred-fire",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Alfred 3 workflow to run node-fire with easy",
   "license": "MIT",
-  "repository": "lwdgit/alfred-fire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwdgit/alfred-fire.git"
+  },
   "engines": {
     "node": ">=6"
   },
@@ -32,5 +35,11 @@
   "dependencies": {
     "alfy": "^0.6.0",
     "node-fire": "^0.2.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/lwdgit/alfred-fire/issues"
+  },
+  "homepage": "https://github.com/lwdgit/alfred-fire#readme",
+  "main": "index.js",
+  "author": "lwdgit"
 }
